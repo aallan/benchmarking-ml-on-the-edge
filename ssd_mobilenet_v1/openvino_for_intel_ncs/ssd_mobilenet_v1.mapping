@@ -1,0 +1,359 @@
+<?xml version="1.0" ?>
+<mapping>
+	<map>
+		<framework name="image_tensor" out_port_id="0"/>
+		<IR id="0" name="image_tensor" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="Preprocessor/sub" out_port_id="0"/>
+		<IR id="1" name="Preprocessor/mul/FusedPower_" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_0/BatchNorm/FusedBatchNorm" out_port_id="0"/>
+		<IR id="2" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_0/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_0/Relu6" out_port_id="0"/>
+		<IR id="3" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_0/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_1_depthwise/BatchNorm/FusedBatchNorm" out_port_id="0"/>
+		<IR id="4" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_1_depthwise/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_1_depthwise/Relu6" out_port_id="0"/>
+		<IR id="5" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_1_depthwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_1_pointwise/BatchNorm/FusedBatchNorm" out_port_id="0"/>
+		<IR id="6" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_1_pointwise/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_1_pointwise/Relu6" out_port_id="0"/>
+		<IR id="7" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_1_pointwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_2_depthwise/BatchNorm/FusedBatchNorm" out_port_id="0"/>
+		<IR id="8" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_2_depthwise/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_2_depthwise/Relu6" out_port_id="0"/>
+		<IR id="9" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_2_depthwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_2_pointwise/BatchNorm/FusedBatchNorm" out_port_id="0"/>
+		<IR id="10" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_2_pointwise/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_2_pointwise/Relu6" out_port_id="0"/>
+		<IR id="11" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_2_pointwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_3_depthwise/BatchNorm/FusedBatchNorm" out_port_id="0"/>
+		<IR id="12" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_3_depthwise/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_3_depthwise/Relu6" out_port_id="0"/>
+		<IR id="13" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_3_depthwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_3_pointwise/BatchNorm/FusedBatchNorm" out_port_id="0"/>
+		<IR id="14" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_3_pointwise/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_3_pointwise/Relu6" out_port_id="0"/>
+		<IR id="15" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_3_pointwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_4_depthwise/BatchNorm/FusedBatchNorm" out_port_id="0"/>
+		<IR id="16" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_4_depthwise/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_4_depthwise/Relu6" out_port_id="0"/>
+		<IR id="17" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_4_depthwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_4_pointwise/BatchNorm/FusedBatchNorm" out_port_id="0"/>
+		<IR id="18" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_4_pointwise/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_4_pointwise/Relu6" out_port_id="0"/>
+		<IR id="19" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_4_pointwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_5_depthwise/BatchNorm/FusedBatchNorm" out_port_id="0"/>
+		<IR id="20" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_5_depthwise/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_5_depthwise/Relu6" out_port_id="0"/>
+		<IR id="21" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_5_depthwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_5_pointwise/BatchNorm/FusedBatchNorm" out_port_id="0"/>
+		<IR id="22" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_5_pointwise/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_5_pointwise/Relu6" out_port_id="0"/>
+		<IR id="23" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_5_pointwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_6_depthwise/BatchNorm/FusedBatchNorm" out_port_id="0"/>
+		<IR id="24" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_6_depthwise/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_6_depthwise/Relu6" out_port_id="0"/>
+		<IR id="25" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_6_depthwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_6_pointwise/BatchNorm/FusedBatchNorm" out_port_id="0"/>
+		<IR id="26" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_6_pointwise/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_6_pointwise/Relu6" out_port_id="0"/>
+		<IR id="27" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_6_pointwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_7_depthwise/BatchNorm/FusedBatchNorm" out_port_id="0"/>
+		<IR id="28" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_7_depthwise/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_7_depthwise/Relu6" out_port_id="0"/>
+		<IR id="29" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_7_depthwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_7_pointwise/BatchNorm/FusedBatchNorm" out_port_id="0"/>
+		<IR id="30" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_7_pointwise/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_7_pointwise/Relu6" out_port_id="0"/>
+		<IR id="31" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_7_pointwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_8_depthwise/BatchNorm/FusedBatchNorm" out_port_id="0"/>
+		<IR id="32" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_8_depthwise/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_8_depthwise/Relu6" out_port_id="0"/>
+		<IR id="33" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_8_depthwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_8_pointwise/BatchNorm/FusedBatchNorm" out_port_id="0"/>
+		<IR id="34" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_8_pointwise/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_8_pointwise/Relu6" out_port_id="0"/>
+		<IR id="35" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_8_pointwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_9_depthwise/BatchNorm/FusedBatchNorm" out_port_id="0"/>
+		<IR id="36" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_9_depthwise/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_9_depthwise/Relu6" out_port_id="0"/>
+		<IR id="37" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_9_depthwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_9_pointwise/BatchNorm/FusedBatchNorm" out_port_id="0"/>
+		<IR id="38" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_9_pointwise/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_9_pointwise/Relu6" out_port_id="0"/>
+		<IR id="39" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_9_pointwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_10_depthwise/BatchNorm/FusedBatchNorm" out_port_id="0"/>
+		<IR id="40" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_10_depthwise/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_10_depthwise/Relu6" out_port_id="0"/>
+		<IR id="41" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_10_depthwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_10_pointwise/BatchNorm/FusedBatchNorm" out_port_id="0"/>
+		<IR id="42" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_10_pointwise/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_10_pointwise/Relu6" out_port_id="0"/>
+		<IR id="43" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_10_pointwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_11_depthwise/BatchNorm/FusedBatchNorm" out_port_id="0"/>
+		<IR id="44" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_11_depthwise/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_11_depthwise/Relu6" out_port_id="0"/>
+		<IR id="45" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_11_depthwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_11_pointwise/BatchNorm/FusedBatchNorm" out_port_id="0"/>
+		<IR id="46" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_11_pointwise/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_11_pointwise/Relu6" out_port_id="0"/>
+		<IR id="47" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_11_pointwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_0/Reshape" out_port_id="0"/>
+		<IR id="51" name="BoxPredictor_0/BoxEncodingPredictor/BiasAdd/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_12_depthwise/BatchNorm/FusedBatchNorm" out_port_id="0"/>
+		<IR id="52" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_12_depthwise/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_12_depthwise/Relu6" out_port_id="0"/>
+		<IR id="53" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_12_depthwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_12_pointwise/BatchNorm/FusedBatchNorm" out_port_id="0"/>
+		<IR id="54" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_12_pointwise/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_12_pointwise/Relu6" out_port_id="0"/>
+		<IR id="55" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_12_pointwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_13_depthwise/BatchNorm/FusedBatchNorm" out_port_id="0"/>
+		<IR id="56" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_13_depthwise/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_13_depthwise/Relu6" out_port_id="0"/>
+		<IR id="57" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_13_depthwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_13_pointwise/BatchNorm/FusedBatchNorm" out_port_id="0"/>
+		<IR id="58" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_13_pointwise/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_13_pointwise/Relu6" out_port_id="0"/>
+		<IR id="59" name="FeatureExtractor/MobilenetV1/MobilenetV1/Conv2d_13_pointwise/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_1/Reshape" out_port_id="0"/>
+		<IR id="63" name="BoxPredictor_1/BoxEncodingPredictor/BiasAdd/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_2_1x1_192/BatchNorm/FusedBatchNorm" out_port_id="0"/>
+		<IR id="64" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_2_1x1_192/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_2_1x1_192/Relu6" out_port_id="0"/>
+		<IR id="65" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_2_1x1_192/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_2_3x3_s2_384/BatchNorm/FusedBatchNorm" out_port_id="0"/>
+		<IR id="66" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_2_3x3_s2_384/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_2_3x3_s2_384/Relu6" out_port_id="0"/>
+		<IR id="67" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_2_3x3_s2_384/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_2/Reshape" out_port_id="0"/>
+		<IR id="71" name="BoxPredictor_2/BoxEncodingPredictor/BiasAdd/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_3_1x1_96/BatchNorm/FusedBatchNorm" out_port_id="0"/>
+		<IR id="72" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_3_1x1_96/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_3_1x1_96/Relu6" out_port_id="0"/>
+		<IR id="73" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_3_1x1_96/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_3_3x3_s2_192/BatchNorm/FusedBatchNorm" out_port_id="0"/>
+		<IR id="74" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_3_3x3_s2_192/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_3_3x3_s2_192/Relu6" out_port_id="0"/>
+		<IR id="75" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_3_3x3_s2_192/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_3/Reshape" out_port_id="0"/>
+		<IR id="79" name="BoxPredictor_3/BoxEncodingPredictor/BiasAdd/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_4_1x1_96/BatchNorm/FusedBatchNorm" out_port_id="0"/>
+		<IR id="80" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_4_1x1_96/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_4_1x1_96/Relu6" out_port_id="0"/>
+		<IR id="81" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_4_1x1_96/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_4_3x3_s2_192/BatchNorm/FusedBatchNorm" out_port_id="0"/>
+		<IR id="82" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_4_3x3_s2_192/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_4_3x3_s2_192/Relu6" out_port_id="0"/>
+		<IR id="83" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_4_3x3_s2_192/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_4/Reshape" out_port_id="0"/>
+		<IR id="87" name="BoxPredictor_4/BoxEncodingPredictor/BiasAdd/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_5_1x1_48/BatchNorm/FusedBatchNorm" out_port_id="0"/>
+		<IR id="88" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_5_1x1_48/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_5_1x1_48/Relu6" out_port_id="0"/>
+		<IR id="89" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_1_Conv2d_5_1x1_48/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_5_3x3_s2_96/BatchNorm/FusedBatchNorm" out_port_id="0"/>
+		<IR id="90" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_5_3x3_s2_96/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_5_3x3_s2_96/Relu6" out_port_id="0"/>
+		<IR id="91" name="FeatureExtractor/MobilenetV1/Conv2d_13_pointwise_2_Conv2d_5_3x3_s2_96/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_5/Reshape" out_port_id="0"/>
+		<IR id="95" name="BoxPredictor_5/BoxEncodingPredictor/BiasAdd/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="Squeeze" out_port_id="0"/>
+		<IR id="96" name="concat" out_port_id="6"/>
+	</map>
+	<map>
+		<framework name="concat" out_port_id="0"/>
+		<IR id="96" name="concat" out_port_id="6"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_0/Reshape_1" out_port_id="0"/>
+		<IR id="102" name="BoxPredictor_0/ClassPredictor/BiasAdd/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_1/Reshape_1" out_port_id="0"/>
+		<IR id="106" name="BoxPredictor_1/ClassPredictor/BiasAdd/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_2/Reshape_1" out_port_id="0"/>
+		<IR id="110" name="BoxPredictor_2/ClassPredictor/BiasAdd/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_3/Reshape_1" out_port_id="0"/>
+		<IR id="114" name="BoxPredictor_3/ClassPredictor/BiasAdd/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_4/Reshape_1" out_port_id="0"/>
+		<IR id="118" name="BoxPredictor_4/ClassPredictor/BiasAdd/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="BoxPredictor_5/Reshape_1" out_port_id="0"/>
+		<IR id="122" name="BoxPredictor_5/ClassPredictor/BiasAdd/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="Postprocessor/scale_logits" out_port_id="0"/>
+		<IR id="124" name="Postprocessor/scale_logits/mul_" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="Postprocessor/convert_scores" out_port_id="0"/>
+		<IR id="125" name="Postprocessor/convert_scores" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="detection_boxes" out_port_id="0"/>
+		<IR id="138" name="DetectionOutput" out_port_id="3"/>
+	</map>
+</mapping>
