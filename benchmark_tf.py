@@ -14,10 +14,10 @@ if IS_LINUX:
     PLATFORM = distro.id()
     if PLATFORM == 'debian':
         try:
-            with open('/proc/cpuinfo') as f:
+            with open('/sys/firmware/devicetree/base/model') as f:
                 for line in f:
                     line = line.strip()
-                    if line.startswith('Hardware') and ( line.endswith('BCM2708') or line.endswith('BCM2835')):
+                    if line.startswith('Raspberry'):
                         PLATFORM = PI
                         print("Running on a Raspberry Pi.")
                         break
