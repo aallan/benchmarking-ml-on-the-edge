@@ -39,7 +39,7 @@ def inference_tf(runs, image, model, output, label=None):
        labels = None
    
    # Load TFLite model and allocate tensors.
-   interpreter = tf.lite.Interpreter(model_path=model)
+   interpreter = tflite.Interpreter(model_path=model, num_threads=4)
    interpreter.allocate_tensors()
    
    # Get input and output tensors.
