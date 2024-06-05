@@ -92,7 +92,7 @@ def inference_tf(runs, image, model, output, label=None):
    tf_config.gpu_options.allow_growth = True
    
    with tf.compat.v1.gfile.FastGFile(model, 'rb') as f:
-        graph_def = tf.GraphDef()
+        graph_def = tf.compat.v1.GraphDef()
         graph_def.ParseFromString(f.read())
         
         
