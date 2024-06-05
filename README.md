@@ -1,6 +1,7 @@
 # Benchmarking Machine Learning on the Edge
 
 ![Graph of benchmarked performance over a number of different platforms](documentation/images/graph.png "Inferencing time in milli-seconds for the for MobileNet v1 SSD 0.75 depth model (left hand bars) and the MobileNet v2 SSD model (right hand bars), trained using the Common Objects in Context (COCO) dataset with an input size of 300×300. Stand alone platforms are shown in green, while the (single) bars for the Xnor AI2GO platform are timings for their proprietary binary weight model and are shown in blue. All other measurements using accelerator hardware attached to the Raspberry Pi 3, Model B+, are in yellow, while measurements on the Raspberry Pi 4, Model B, in red.")
+_Inferencing time in milli-seconds for the for MobileNet v1 SSD 0.75 depth model (left hand bars) and the MobileNet v2 SSD model (right hand bars), trained using the Common Objects in Context (COCO) dataset with an input size of 300×300. Stand alone platforms are shown in green, while the (single) bars for the Xnor AI2GO platform are timings for their proprietary binary weight model and are shown in blue. All other measurements using accelerator hardware attached to the Raspberry Pi 3, Model B+, are in yellow, while measurements on the Raspberry Pi 4, Model B, in red._
 
 See my [round up of the benchmark results](https://aallan.medium.com/the-big-benchmarking-roundup-a561fbfe8719) for further details.
 
