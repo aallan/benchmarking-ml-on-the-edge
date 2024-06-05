@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 
+import platform
 import distro
-PLATFORM = distro.system().lower()
+PLATFORM = platform.system().lower()
 GOOGLE = 'edge_tpu'
 INTEL = 'ncs2'
 NVIDIA = 'jetson_nano'
@@ -10,7 +11,7 @@ MAC = 'darwin'
 IS_LINUX = (PLATFORM == 'linux')
 
 if IS_LINUX:
-    PLATFORM = distro.linux_distribution()[0].lower()
+    PLATFORM = distro.id()
     if PLATFORM == 'debian':
         try:
             with open('/proc/cpuinfo') as f:
