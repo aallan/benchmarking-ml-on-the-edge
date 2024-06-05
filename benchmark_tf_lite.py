@@ -65,7 +65,6 @@ def inference_tf(runs, image, model, output, label=None):
    if floating_model:
       input_data = (np.float32(input_data) - 127.5) / 127.5
    
-   interpreter.set_num_threads(4)
    interpreter.set_tensor(input_details[0]['index'], input_data)
    
    #  Start synchronous inference and get inference result
