@@ -96,7 +96,7 @@ def inference_tf(runs, image, model, output, label=None):
         graph_def.ParseFromString(f.read())
         
         
-   with tf.Session(config=tf_config) as sess:
+   with tf.compat.v1.Session(config=tf_config) as sess:
         sess.graph.as_default()
         tf.import_graph_def(graph_def, name='')
         
