@@ -88,7 +88,7 @@ def inference_tf(runs, image, model, output, label=None):
    else:
        labels = None
    
-   tf_config = tf.ConfigProto()
+   tf_config = tf.compat.v1.ConfigProto()
    tf_config.gpu_options.allow_growth = True
    
    with tf.gfile.FastGFile(model, 'rb') as f:
