@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-import tensorflow as tf
+import tflite_runtime.interpreter as tflite
 
 import sys
 import os
