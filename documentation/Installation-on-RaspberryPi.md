@@ -15,6 +15,7 @@ Installing TensorFlow on the Raspberry Pi is a lot more complicated than it used
 	$ pip install packaging 
 	$ pip install protobuf==3.20.3 
 	$ pip install six wheel mock gdown 
+	$ pip install opencv-python
 	$ TFVER=2.15.0.post1
 	$ PYVER=311
 	$ ARCH=`python -c 'import platform; print(platform.machine())'`
