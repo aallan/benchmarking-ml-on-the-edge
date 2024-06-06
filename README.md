@@ -26,6 +26,8 @@ More information can be found in the following articles. The latest results are 
 * [Benchmarking TensorFlow and TensorFlow Lite on Raspberry Pi 5]() (LATEST RESULTS)
 * [The big benchmark roundup](https://aallan.medium.com/the-big-benchmarking-roundup-a561fbfe8719)
 
+See the documentation for instructions on how to install TensorFlow and TensorFlow Lite, and how to run the benchmarking scripts.
+
 ## Getting Started with Google's Edge TPU
 
 * [Hands on with the Coral Dev Board](https://medium.com/@aallan/hands-on-with-the-coral-dev-board-adbcc317b6af)
