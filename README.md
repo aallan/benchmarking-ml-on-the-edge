@@ -61,7 +61,7 @@ The benchmark code was originally written back in 2019 and the scripts have suff
 - [x] benchmark_tf_lite.py - Script for TensorFlow Lite on generic hardware
 - [ ] benchmark_tf_trt.py - Script for Nvidia Jetson hardware using TensorRT
 
-**NOTE:** The benchmark_edgetpu.py script currently uses the deprecated [edgetpu library](https://coral.ai/docs/edgetpu/api-intro/), needs to be updated to use the [pycoral library](https://coral.ai/docs/reference/py/). However even this coralpy library is nop longer properly supported](https://github.com/google-coral/pycoral/issues/137) by Google.
+**NOTE:** The benchmark_edgetpu.py script currently uses the deprecated [edgetpu library](https://coral.ai/docs/edgetpu/api-intro/), and needs to be updated to use the [pycoral library](https://coral.ai/docs/reference/py/). However even that library is no longer properly supported](https://github.com/google-coral/pycoral/issues/137) by Google.
 
 ## Licence
 
