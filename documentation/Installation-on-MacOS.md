@@ -15,3 +15,4 @@ There is an official TensorFlow package for macOS. You can install it as below,
 ## Installing TensorFlow Lite
 
 **NOTE:** There is currently no `tflite-runtime` wheel for Python 3.12. See [this Github issue](https://github.com/tensorflow/tensorflow/issues/62003) for more information.
+
