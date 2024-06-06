@@ -34,13 +34,19 @@ See the documentation for instructions on how to install TensorFlow and TensorFl
 * [How to use a Raspberry Pi to flash the new firmware onto the Coral Dev Board](https://medium.com/@aallan/how-to-use-a-raspberry-pi-to-flash-new-firmware-onto-the-coral-dev-board-503aacf635b9)
 * [Hands on with the Coral USB Accelerator](https://medium.com/@aallan/hands-on-with-the-coral-usb-accelerator-a37fcb323553)
 
+**NOTE:** These guides are likely to be out of date and are in need of updating.
+
 ## Getting Started with Intel's Movidius
 
 * [Getting started with the Intel Neural Compute Stick 2 and the Raspberry Pi](https://blog.hackster.io/getting-started-with-the-intel-neural-compute-stick-2-and-the-raspberry-pi-6904ccfe963)
 
+**NOTE:** These guides are likely to be out of date and are in need of updating.
+
 ## Getting Started with Nvidia's GPUs
 
 * [Getting started with the Nvidia Jetson Nano Developer Kit](https://blog.hackster.io/getting-started-with-the-nvidia-jetson-nano-developer-kit-43aa7c298797)
+
+**NOTE:** These guides are likely to be out of date and are in need of updating.
 
 ## Benchmarking Machine Learning
 
@@ -50,6 +56,7 @@ See the documentation for instructions on how to install TensorFlow and TensorFl
 * [Benchmarking Machine Learning on the new Raspberry Pi 4](https://blog.hackster.io/benchmarking-machine-learning-on-the-new-raspberry-pi-4-model-b-88db9304ce4)
 * [Benchmarking TensorFlow Lite on the new Raspberry Pi 4](https://blog.hackster.io/benchmarking-tensorflow-lite-on-the-new-raspberry-pi-4-model-b-3fd859d05b98)
 * [Benchmarking the Intel Neural Compute Stick on the new Raspberry Pi 4](https://blog.hackster.io/benchmarking-the-intel-neural-compute-stick-on-the-new-raspberry-pi-4-model-b-e419393f2f97)
+* [Benchmarking TensorFlow and TensorFlow Lite on Raspberry Pi 5]() 
 
 ## TO DO
 
