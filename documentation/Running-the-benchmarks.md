@@ -11,7 +11,7 @@ The `benchmark_tf.py` script is used to run TensorFlow benchmarks on Linux (incl
 
 For example on a Raspberry Pi, benchmarking with the MobileNet v2 model for 10,000 inference runs the invocation would be,
 
-	$ ./benchmark_tf.py --model ssd_mobilenet_v2/tf_for_rpi_and_nvidia_and_macbook/frozen_inference_graph.pb --label ssd_mobilenet_v2/tf_for_rpi_and_nvidia_and_macbook/coco_labels.txt --input fruit.jpg --output output.jpg --runs 10000
+	$ ./benchmark_tf.py --model ssd_mobilenet_v2/tf_for_linux_and_macos/frozen_inference_graph.pb --label ssd_mobilenet_v2/tf_for_linux_and_macos/coco_labels.txt --input fruit.jpg --output output.jpg --runs 10000
 
 this will output an `output.jpg` image with the two objects (the banana and the apple) labelled.
 
