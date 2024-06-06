@@ -21,12 +21,9 @@ _Inferencing time in milli-seconds for the for MobileNet v2 model (left hand bar
 | Raspberry Pi 4 | TensorFlow Lite | 112.6 | 82.7 |
 | Raspberry Pi 5 | TensorFlow Lite | 23.5 | 16.9 |
 
-More information can be found in the following articles. The latest results are presented in the article benchmarking the Raspberry Pi 5.
+More information can be found in the following articles. The latest results are presented in the article [benchmarking the Raspberry Pi 5]().
 
-* [Benchmarking TensorFlow and TensorFlow Lite on Raspberry Pi 5]() (LATEST RESULTS)
-* [The big benchmark roundup](https://aallan.medium.com/the-big-benchmarking-roundup-a561fbfe8719)
-
-See the documentation for instructions on how to install TensorFlow and TensorFlow Lite, and how to run the benchmarking scripts.
+**NOTE:** See the [documentation directory](documentation) for instructions on how to install TensorFlow and TensorFlow Lite, and how to run the benchmarking scripts.
 
 ## Getting Started with Google's Edge TPU
 
@@ -50,6 +47,7 @@ See the documentation for instructions on how to install TensorFlow and TensorFl
 
 ## Benchmarking Machine Learning
 
+* [The Big Benchmark Roundup](https://aallan.medium.com/the-big-benchmarking-roundup-a561fbfe8719)
 * [Benchmarking Edge Computing](https://aallan.medium.com/benchmarking-edge-computing-ce3f13942245)
 * [Benchmarking TensorFlow and TensorFlow Lite on the Raspberry Pi](https://blog.hackster.io/benchmarking-tensorflow-and-tensorflow-lite-on-the-raspberry-pi-43f51b796796)
 * [Benchmarking the Xnor AI2GO Platform on the Raspberry Pi](https://blog.hackster.io/benchmarking-the-xnor-ai2go-platform-on-the-raspberry-pi-628a82af8aea)
