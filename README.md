@@ -50,3 +50,27 @@ See the documentation for instructions on how to install TensorFlow and TensorFl
 * [Benchmarking Machine Learning on the new Raspberry Pi 4](https://blog.hackster.io/benchmarking-machine-learning-on-the-new-raspberry-pi-4-model-b-88db9304ce4)
 * [Benchmarking TensorFlow Lite on the new Raspberry Pi 4](https://blog.hackster.io/benchmarking-tensorflow-lite-on-the-new-raspberry-pi-4-model-b-3fd859d05b98)
 * [Benchmarking the Intel Neural Compute Stick on the new Raspberry Pi 4](https://blog.hackster.io/benchmarking-the-intel-neural-compute-stick-on-the-new-raspberry-pi-4-model-b-e419393f2f97)
+
+## TO DO
+
+The benchmark code was originally written back in 2019 and the scripts have suffered from bit rot. They need to be updated.
+
+- [ ] benchmark_edgetpu.py - Script for Edge TPU (Coral) hardware
+- [ ] benchmark_intel.py - Script for Intel (Movidius) hardware using OpenVINO
+- [x] benchmark_tf.py - Script for TensorFlow on generic hardware (CPU and GPU)
+- [x] benchmark_tf_lite.py - Script for TensorFlow Lite on generic hardware
+- [ ] benchmark_tf_trt.py - Script for Nvidia Jetson hardware using TensorRT
+
+**NOTE:** The benchmark_edgetpu.py script currently uses the deprecated [edgetpu library](https://coral.ai/docs/edgetpu/api-intro/), needs to be updated to use the [pycoral library](https://coral.ai/docs/reference/py/). However even this coralpy library is nop longer properly supported](https://github.com/google-coral/pycoral/issues/137) by Google.
+
+## Licence
+
+The code in this repository is licensed under the MIT licence.
+
+Copyright 2019-2024 Alasdair Allan
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
