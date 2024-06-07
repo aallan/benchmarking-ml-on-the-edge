@@ -21,7 +21,7 @@ _Inferencing time in milli-seconds for the for MobileNet v2 model (left hand bar
 | Raspberry Pi 4 | TensorFlow Lite | | 112.6 | 82.7 |
 | Raspberry Pi 5 | TensorFlow Lite | | 23.5 | 16.9 |
 
-More information can be found in the following articles. The latest results are presented in the article [benchmarking the Raspberry Pi 5]().
+The latest results are presented in the article [benchmarking the Raspberry Pi 5](https://www.hackster.io/news/benchmarking-tensorflow-and-tensorflow-lite-on-raspberry-pi-5-b9156d58a6a2).
 
 **NOTE:** See the [documentation directory](documentation) for instructions on how to install TensorFlow and TensorFlow Lite, and how to run the benchmarking scripts.
 
@@ -54,7 +54,7 @@ More information can be found in the following articles. The latest results are 
 * [Benchmarking Machine Learning on the new Raspberry Pi 4](https://blog.hackster.io/benchmarking-machine-learning-on-the-new-raspberry-pi-4-model-b-88db9304ce4)
 * [Benchmarking TensorFlow Lite on the new Raspberry Pi 4](https://blog.hackster.io/benchmarking-tensorflow-lite-on-the-new-raspberry-pi-4-model-b-3fd859d05b98)
 * [Benchmarking the Intel Neural Compute Stick on the new Raspberry Pi 4](https://blog.hackster.io/benchmarking-the-intel-neural-compute-stick-on-the-new-raspberry-pi-4-model-b-e419393f2f97)
-* [Benchmarking TensorFlow and TensorFlow Lite on Raspberry Pi 5]() 
+* [Benchmarking TensorFlow and TensorFlow Lite on Raspberry Pi 5](https://www.hackster.io/news/benchmarking-tensorflow-and-tensorflow-lite-on-raspberry-pi-5-b9156d58a6a2) 
 
 ## TO DO
 
