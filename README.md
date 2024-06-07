@@ -14,12 +14,12 @@ _Inferencing time in milli-seconds for the for MobileNet v2 model (left hand bar
 | Movidius NCS | OpenVINO | USB3 | 176.4 | 88.4 |
 | Intel NCS2 | OpenVIINO | USB2 | 118.6 | 87.2 |
 | Intel NCS2 | OpenVINO | USB3 | 80.4 | 52.8 |
-| Raspberry Pi 3, Model B+ | TensorFlow | 654.0 | 480.3 |
-| Raspberry Pi 4 | TensorFlow | 483.5 | 263.9 |
-| Raspberry Pi 5 | TensorFlow | 148.9 | 66.2 |
-| Raspberry Pi 3, Model B+ | TensorFlow Lite | 379.6 | 271.5 |
-| Raspberry Pi 4 | TensorFlow Lite | 112.6 | 82.7 |
-| Raspberry Pi 5 | TensorFlow Lite | 23.5 | 16.9 |
+| Raspberry Pi 3, Model B+ | TensorFlow | | 654.0 | 480.3 |
+| Raspberry Pi 4 | TensorFlow | | 483.5 | 263.9 |
+| Raspberry Pi 5 | TensorFlow | | 148.9 | 66.2 |
+| Raspberry Pi 3, Model B+ | TensorFlow Lite | | 379.6 | 271.5 |
+| Raspberry Pi 4 | TensorFlow Lite | | 112.6 | 82.7 |
+| Raspberry Pi 5 | TensorFlow Lite | | 23.5 | 16.9 |
 
 More information can be found in the following articles. The latest results are presented in the article [benchmarking the Raspberry Pi 5]().
 
