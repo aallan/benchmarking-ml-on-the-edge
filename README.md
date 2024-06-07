@@ -23,7 +23,7 @@ _Inferencing time in milli-seconds for the for MobileNet v2 model (left hand bar
 
 The latest results are presented in the article [benchmarking the Raspberry Pi 5](https://www.hackster.io/news/benchmarking-tensorflow-and-tensorflow-lite-on-raspberry-pi-5-b9156d58a6a2).
 
-**NOTE:** See the [documentation directory](documentation) for instructions on how to install TensorFlow and TensorFlow Lite, and how to run the benchmarking scripts.
+**NOTE:** See the [documentation directory](documentation) for instructions on how to install TensorFlow and TensorFlow Lite, and how to run the benchmarking scripts on your hardware.
 
 ## Getting Started with Google's Edge TPU
 
