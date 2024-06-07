@@ -7,7 +7,7 @@ _Inferencing time in milli-seconds for the for MobileNet v2 model (left hand bar
 | --- | --- | --- | --- | --- |
 | Jetson Nano  | TensorFlow  | | 309.3 | 276.0 |
 | Jetson Nano  | TensorRT  | | 72.3 | 61.6 |
-| Coral Dev Board | Edge TPU | | 20.9 15.7 |
+| Coral Dev Board | Edge TPU | | 20.9 | 15.7 |
 | Coral USB Accelerator | Edge TPU | USB2 | 58.1 | 49.3 |
 | Coral USB Accelerator | Edge TPU | USB3 | 18.2 | 14.9 |
 | Movidius NCS | OpenVINO | USB2 | 204.5 | 115.7 |
