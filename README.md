@@ -12,7 +12,7 @@ _Inferencing time in milli-seconds for the for MobileNet v2 model (left hand bar
 | Coral USB Accelerator | Edge TPU | USB3 | 18.2 | 14.9 |
 | Movidius NCS | OpenVINO | USB2 | 204.5 | 115.7 |
 | Movidius NCS | OpenVINO | USB3 | 176.4 | 88.4 |
-| Intel NCS2 | OpenVIINO | USB2 | 118.6 | 87.2 |
+| Intel NCS2 | OpenVINO | USB2 | 118.6 | 87.2 |
 | Intel NCS2 | OpenVINO | USB3 | 80.4 | 52.8 |
 | Raspberry Pi 3, Model B+ | TensorFlow | | 654.0 | 480.3 |
 | Raspberry Pi 4 | TensorFlow | | 483.5 | 263.9 |
